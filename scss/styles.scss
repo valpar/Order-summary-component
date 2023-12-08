@@ -98,6 +98,7 @@ body {
 .order_wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .order_change_btn {
@@ -148,5 +149,32 @@ body {
   &:hover {
     color: $dark-blue;
     transition-duration: 0.8s;
+  }
+}
+
+@media screen and (max-width: 640px) and (min-width: 350px) {
+  body {
+    background-image: url('../images/pattern-background-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .order_summary_context {
+    gap: 1.2rem;
+    width: 85%;
+  }
+
+  .hero {
+    width: 85%;
+  }
+
+  .order_icon_wrapper {
+    gap: 0.8rem;
+  }
+
+  .order_plan_option,
+  .order_pricing {
+    font-size: 14px;
   }
 }
