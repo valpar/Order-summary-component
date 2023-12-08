@@ -11,7 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./css/styles.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
@@ -25,12 +25,19 @@
             any device anywhere you like!
           </p>
           <div class="order_plan">
-            <img src="./images/icon-music.svg" alt="music" class="order_icon" />
-            <div class="order_wrapper">
-              <p class="order_plan_option">Annual Plan</p>
-              <p class="order_pricing">$59.99/year</p>
+            <div class="order_icon_wrapper">
+              <img
+                src="./images/icon-music.svg"
+                alt="music"
+                class="order_icon"
+              />
+              <div class="order_wrapper">
+                <p class="order_plan_option">Annual Plan</p>
+                <p class="order_pricing">$59.99/year</p>
+              </div>
             </div>
-            <a href="#" class="order_change_btn">Change</a>
+
+            <button href="#" class="order_change_btn">Change</button>
           </div>
           <button class="order_payment_btn">Proceed to Payment</button>
           <button class="order_cancel_btn">Cancel Order</button>
