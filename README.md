@@ -10,14 +10,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/valpar/Order-summary-component)
+- Live Site URL: [Live site URL ](https://order-summary-component-puce-ten.vercel.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- SCSS
