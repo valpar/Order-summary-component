@@ -30,6 +30,7 @@ body {
   background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-color: $primary-color;
+  background-size: contain;
 }
 
 .container {
@@ -49,13 +50,13 @@ body {
 .order_summary_context {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1.5rem;
   align-items: center;
   width: 400px;
   height: 100%;
   background-color: white;
   border-radius: 0 0 10px 10px;
-  padding: 40px;
+  padding: 30px;
 }
 
 .hero {
@@ -73,13 +74,29 @@ body {
 
 .order_description {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: $desaturated-blue;
   text-align: center;
 }
 
 .order_plan {
   background-color: $very-pale-blue;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.order_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.order_change_btn {
+  display: flex;
+  align-items: center;
 }
 
 .order_payment_btn {
@@ -92,7 +109,12 @@ body {
   font-weight: 700;
   cursor: pointer;
   box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.5);
-  :hover {
-    background-color: hsl(245, 75%, 42%);
-  }
+}
+
+.order_cancel_btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: $desaturated-blue;
+  font-weight: 700;
 }
